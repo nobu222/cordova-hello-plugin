@@ -1,22 +1,23 @@
 {
-  "name": "your.name.space.yourPluginName",
+  "name": "@nobu222/cordova-hello-plugin",
   "version": "0.0.1-dev",
   "description": "Cordova Sample Plugin",
   "cordova": {
-    "id": "your.name.space.yourPluginName",
+    "id": "nobuhiko.futagami.hello",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akofman/cordova-plugin-boilerplate"
+    "url": "https://github.com/nobu222/cordova-hello-plugin.git"
   },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
-    "cordova-ios"
+    "cordova-ios",
+    "swift"
   ],
-  "author": "Alexis Kofman",
+  "author": "Nobuhiko Futagami",
   "license": "MIT"
 }
