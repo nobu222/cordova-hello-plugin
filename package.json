@@ -3,7 +3,7 @@
   "version": "0.0.1-dev",
   "description": "Cordova Sample Plugin",
   "cordova": {
-    "id": "nobuhiko.futagami.hello",
+    "id": "cordova-hello-plugin",
     "platforms": [
       "ios"
     ]

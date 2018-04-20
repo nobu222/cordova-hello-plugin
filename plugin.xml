@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="nobuhiko.futagami.hello" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
-  <name>cordova-plugin-hello</name>
+<plugin id="cordova-hello-plugin" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>cordova-hello-plugin</name>
   <js-module name="hello" src="www/hello.js">
-    <clobbers target="cordova.plugins.hello" />
+    <clobbers target="cordova.plugin.hello" />
   </js-module>
   <platform name="ios">
     <config-file parent="/*" target="config.xml">
@@ -10,7 +10,7 @@
         <param name="ios-package" value="HelloPlugin" />
       </feature>
     </config-file>
-    <source-file src="src/ios/helloPlugin.swift" />
+    <source-file src="src/ios/HelloPlugin.swift" />
     <dependency id="cordova-plugin-add-swift-support" url="https://github.com/akofman/cordova-plugin-add-swift-support"/>
   </platform>
 </plugin>

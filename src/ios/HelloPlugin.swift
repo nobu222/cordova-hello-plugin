@@ -1,7 +1,7 @@
 import Foundation
 
 @objc(HelloPlugin) class HelloPlugin : CDVPlugin {
-  func sayHello(command: CDVInvokedUrlCommand) {
+  func sayHello(_ command: CDVInvokedUrlCommand) {
     let message = "Hello !";
 
     let pluginResult = CDVPluginResult(status: CDVCommandStatus_OK, messageAs: message);
